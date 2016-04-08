@@ -8,22 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		1864858B1CB62E380008D5E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864858A1CB62E380008D5E8 /* AppDelegate.swift */; };
-		1864858D1CB62E380008D5E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864858C1CB62E380008D5E8 /* ViewController.swift */; };
+		1864858D1CB62E380008D5E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864858C1CB62E380008D5E8 /* LoginViewController.swift */; };
 		186485901CB62E380008D5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1864858E1CB62E380008D5E8 /* Main.storyboard */; };
 		186485931CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 186485911CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld */; };
-		186485951CB62E390008D5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186485941CB62E390008D5E8 /* Assets.xcassets */; };
 		186485981CB62E390008D5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186485961CB62E390008D5E8 /* LaunchScreen.storyboard */; };
+		186485A51CB63D420008D5E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186485A41CB63D420008D5E8 /* Images.xcassets */; };
+		186485A91CB63E720008D5E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186485A81CB63E720008D5E8 /* HomeViewController.swift */; };
+		186485AB1CB63E930008D5E8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186485AA1CB63E930008D5E8 /* SignUpViewController.swift */; };
+		186485AD1CB63EB80008D5E8 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186485AC1CB63EB80008D5E8 /* ResetPasswordViewController.swift */; };
+		342314CAECC893473A0397DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F49F49EAFEFE8163BB4AA462 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		186485871CB62E380008D5E8 /* The travel with parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The travel with parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1864858A1CB62E380008D5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1864858C1CB62E380008D5E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1864858C1CB62E380008D5E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1864858F1CB62E380008D5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		186485921CB62E390008D5E8 /* The_travel_with_parse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_travel_with_parse.xcdatamodel; sourceTree = "<group>"; };
-		186485941CB62E390008D5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186485971CB62E390008D5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186485991CB62E390008D5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186485A11CB634EA0008D5E8 /* The travel with parse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The travel with parse-Bridging-Header.h"; sourceTree = "<group>"; };
+		186485A41CB63D420008D5E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		186485A81CB63E720008D5E8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		186485AA1CB63E930008D5E8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		186485AC1CB63EB80008D5E8 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		9A8D8612FFB41E3FE1603A4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9DB09A76471715F9C728B83A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F49F49EAFEFE8163BB4AA462 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342314CAECC893473A0397DF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,8 @@
 			children = (
 				186485891CB62E380008D5E8 /* The travel with parse */,
 				186485881CB62E380008D5E8 /* Products */,
+				A3F982F6E4E5E777388BA147 /* Pods */,
+				B36434A1B4D5ABD5B278A36C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +70,36 @@
 		186485891CB62E380008D5E8 /* The travel with parse */ = {
 			isa = PBXGroup;
 			children = (
-				1864858A1CB62E380008D5E8 /* AppDelegate.swift */,
-				1864858C1CB62E380008D5E8 /* ViewController.swift */,
+				186485A41CB63D420008D5E8 /* Images.xcassets */,
 				1864858E1CB62E380008D5E8 /* Main.storyboard */,
-				186485941CB62E390008D5E8 /* Assets.xcassets */,
 				186485961CB62E390008D5E8 /* LaunchScreen.storyboard */,
 				186485991CB62E390008D5E8 /* Info.plist */,
 				186485911CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld */,
+				186485A11CB634EA0008D5E8 /* The travel with parse-Bridging-Header.h */,
+				1864858A1CB62E380008D5E8 /* AppDelegate.swift */,
+				1864858C1CB62E380008D5E8 /* LoginViewController.swift */,
+				186485A81CB63E720008D5E8 /* HomeViewController.swift */,
+				186485AA1CB63E930008D5E8 /* SignUpViewController.swift */,
+				186485AC1CB63EB80008D5E8 /* ResetPasswordViewController.swift */,
 			);
 			path = "The travel with parse";
+			sourceTree = "<group>";
+		};
+		A3F982F6E4E5E777388BA147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DB09A76471715F9C728B83A /* Pods.debug.xcconfig */,
+				9A8D8612FFB41E3FE1603A4C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B36434A1B4D5ABD5B278A36C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F49F49EAFEFE8163BB4AA462 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1864859C1CB62E390008D5E8 /* Build configuration list for PBXNativeTarget "The travel with parse" */;
 			buildPhases = (
+				92605BF8049550728818C6C6 /* Check Pods Manifest.lock */,
 				186485831CB62E380008D5E8 /* Sources */,
 				186485841CB62E380008D5E8 /* Frameworks */,
 				186485851CB62E380008D5E8 /* Resources */,
+				5E2DED34428C90D2CCD4F8B7 /* Embed Pods Frameworks */,
+				BF937983E7BF0AF660E194F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,13 +164,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186485A51CB63D420008D5E8 /* Images.xcassets in Resources */,
 				186485981CB62E390008D5E8 /* LaunchScreen.storyboard in Resources */,
-				186485951CB62E390008D5E8 /* Assets.xcassets in Resources */,
 				186485901CB62E380008D5E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E2DED34428C90D2CCD4F8B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92605BF8049550728818C6C6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF937983E7BF0AF660E194F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		186485831CB62E380008D5E8 /* Sources */ = {
@@ -140,8 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				186485931CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld in Sources */,
-				1864858D1CB62E380008D5E8 /* ViewController.swift in Sources */,
+				1864858D1CB62E380008D5E8 /* LoginViewController.swift in Sources */,
 				1864858B1CB62E380008D5E8 /* AppDelegate.swift in Sources */,
+				186485AD1CB63EB80008D5E8 /* ResetPasswordViewController.swift in Sources */,
+				186485A91CB63E720008D5E8 /* HomeViewController.swift in Sources */,
+				186485AB1CB63E930008D5E8 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,23 +339,30 @@
 		};
 		1864859D1CB62E390008D5E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB09A76471715F9C728B83A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "The travel with parse/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JohnnyHsieh.The-travel-with-parse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The travel with parse/The travel with parse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1864859E1CB62E390008D5E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8D8612FFB41E3FE1603A4C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "The travel with parse/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JohnnyHsieh.The-travel-with-parse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The travel with parse/The travel with parse-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -289,6 +385,7 @@
 				1864859E1CB62E390008D5E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
