@@ -68,9 +68,10 @@ class LoginViewController: UIViewController {
         if( (user) != nil){
         self.loginsccuessAlert("Sccuess", message: "Logged In!")
             dispatch_async(dispatch_get_main_queue(), {()-> Void in
-                let viewController: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Home")
-                self.presentViewController(viewController, animated: true, completion: nil)
+            let loginViewController = self.storyboard!.instantiateViewControllerWithIdentifier("Home")
+            UIApplication.sharedApplication().keyWindow?.rootViewController = loginViewController
             })
+
 
         }else{
         self.loginErrorAlert("Error", message: "User doesn't exit!")

@@ -78,8 +78,8 @@ class SignUpViewController: UIViewController {
         self.signUpSuccessAlert("Sccuess", message: "signed up!")
      //利用dispatch 並行序列方法
             dispatch_async(dispatch_get_main_queue(), {()-> Void in
-                let viewController: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Home")
-                self.presentViewController(viewController, animated: true, completion: nil)
+                let loginViewController = self.storyboard!.instantiateViewControllerWithIdentifier("Home")
+                UIApplication.sharedApplication().keyWindow?.rootViewController = loginViewController
             })
         
         
