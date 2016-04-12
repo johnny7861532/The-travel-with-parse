@@ -87,7 +87,10 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import ObjectiveC;
 #endif
+
+#import "/Users/apple/Desktop/程式專用/The travel with parse/The travel with parse/The travel with parse-Bridging-Header.h"
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -116,9 +119,16 @@ SWIFT_CLASS("_TtC21The_travel_with_parse11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC21The_travel_with_parse26FriendSearchViewController")
+@interface FriendSearchViewController : UIViewController
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
 
 SWIFT_CLASS("_TtC21The_travel_with_parse18HomeViewController")
 @interface HomeViewController : UIViewController
@@ -149,6 +159,48 @@ SWIFT_CLASS("_TtC21The_travel_with_parse19LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImage;
+@class UIImagePickerController;
+
+SWIFT_CLASS("_TtC21The_travel_with_parse17PhotoTakingHelper")
+@interface PhotoTakingHelper : NSObject
+@property (nonatomic, weak) UIViewController * __null_unspecified viewController;
+@property (nonatomic, copy) void (^ __nonnull callback)(UIImage * __nullable);
+@property (nonatomic, strong) UIImagePickerController * __nullable imagePickerController;
+- (nonnull instancetype)initWithViewController:(UIViewController * __nonnull)viewController callback:(void (^ __nonnull)(UIImage * __nullable))callback OBJC_DESIGNATED_INITIALIZER;
+- (void)showPhotoSourceSelection;
+- (void)showImagePickerController:(UIImagePickerControllerSourceType)sourceType;
+@end
+
+
+@interface PhotoTakingHelper (SWIFT_EXTENSION(The_travel_with_parse)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+- (void)imagePickerController:(UIImagePickerController * __nonnull)picker didFinishPickingImage:(UIImage * __null_unspecified)image editingInfo:(NSDictionary * __null_unspecified)editingInfo;
+- (void)imagePickerControllerDidCancel:(UIImagePickerController * __nonnull)picker;
+@end
+
+
+SWIFT_CLASS("_TtC21The_travel_with_parse19PhotoViewController")
+@interface PhotoViewController : UIViewController
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class PFFile;
+@class PFUser;
+
+SWIFT_CLASS("_TtC21The_travel_with_parse4Post")
+@interface Post : PFObject <PFSubclassing>
+@property (nonatomic, strong) UIImage * __nullable image;
+@property (nonatomic, strong) PFFile * __nullable imageFile;
+@property (nonatomic, strong) PFUser * __nullable user;
+@property (nonatomic, strong) PFObject * __nullable text;
++ (NSString * __nonnull)parseClassName;
++ (void)initialize;
+- (void)uploadPost;
+- (nonnull instancetype)initWithClassName:(NSString * __nonnull)newClassName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC21The_travel_with_parse27ResetPasswordViewController")
 @interface ResetPasswordViewController : UIViewController
@@ -175,6 +227,22 @@ SWIFT_CLASS("_TtC21The_travel_with_parse20SignUpViewController")
 - (BOOL)textFiledShouldReturn:(UITextField * __nonnull)textField;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC21The_travel_with_parse22TimelineViewController")
+@interface TimelineViewController : UIViewController
+@property (nonatomic, strong) PhotoTakingHelper * __nullable photoTakingHelper;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITabBarController;
+
+@interface TimelineViewController (SWIFT_EXTENSION(The_travel_with_parse)) <UITabBarControllerDelegate>
+- (BOOL)tabBarController:(UITabBarController * __nonnull)tabBarController shouldSelectViewController:(UIViewController * __nonnull)viewController;
+- (void)takePhoto;
 @end
 
 #pragma clang diagnostic pop

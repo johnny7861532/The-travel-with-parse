@@ -8,30 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		1864858B1CB62E380008D5E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864858A1CB62E380008D5E8 /* AppDelegate.swift */; };
-		1864858D1CB62E380008D5E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864858C1CB62E380008D5E8 /* LoginViewController.swift */; };
 		186485901CB62E380008D5E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1864858E1CB62E380008D5E8 /* Main.storyboard */; };
-		186485931CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 186485911CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld */; };
 		186485981CB62E390008D5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186485961CB62E390008D5E8 /* LaunchScreen.storyboard */; };
 		186485A51CB63D420008D5E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186485A41CB63D420008D5E8 /* Images.xcassets */; };
-		186485A91CB63E720008D5E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186485A81CB63E720008D5E8 /* HomeViewController.swift */; };
-		186485AB1CB63E930008D5E8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186485AA1CB63E930008D5E8 /* SignUpViewController.swift */; };
-		186485AD1CB63EB80008D5E8 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186485AC1CB63EB80008D5E8 /* ResetPasswordViewController.swift */; };
+		18F27BD71CBB875D00CCA019 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BD61CBB875D00CCA019 /* TimelineViewController.swift */; };
+		18F27BD91CBB87D500CCA019 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BD81CBB87D500CCA019 /* PhotoViewController.swift */; };
+		18F27BDB1CBB880A00CCA019 /* FriendSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BDA1CBB880A00CCA019 /* FriendSearchViewController.swift */; };
+		18F27BF01CBB975C00CCA019 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BEC1CBB975C00CCA019 /* HomeViewController.swift */; };
+		18F27BF11CBB975C00CCA019 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BED1CBB975C00CCA019 /* LoginViewController.swift */; };
+		18F27BF21CBB975C00CCA019 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BEE1CBB975C00CCA019 /* ResetPasswordViewController.swift */; };
+		18F27BF31CBB975C00CCA019 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BEF1CBB975C00CCA019 /* SignUpViewController.swift */; };
+		18F27BF71CBB987B00CCA019 /* PhotoTakingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BF61CBB987B00CCA019 /* PhotoTakingHelper.swift */; };
+		18F27BFE1CBC8E6600CCA019 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F27BFD1CBC8E6600CCA019 /* Post.swift */; };
 		342314CAECC893473A0397DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F49F49EAFEFE8163BB4AA462 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		186485871CB62E380008D5E8 /* The travel with parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The travel with parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1864858A1CB62E380008D5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1864858C1CB62E380008D5E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1864858F1CB62E380008D5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		186485921CB62E390008D5E8 /* The_travel_with_parse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_travel_with_parse.xcdatamodel; sourceTree = "<group>"; };
 		186485971CB62E390008D5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186485991CB62E390008D5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186485A11CB634EA0008D5E8 /* The travel with parse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The travel with parse-Bridging-Header.h"; sourceTree = "<group>"; };
 		186485A41CB63D420008D5E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		186485A81CB63E720008D5E8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		186485AA1CB63E930008D5E8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		186485AC1CB63EB80008D5E8 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		18F27BD61CBB875D00CCA019 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		18F27BD81CBB87D500CCA019 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		18F27BDA1CBB880A00CCA019 /* FriendSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchViewController.swift; sourceTree = "<group>"; };
+		18F27BEC1CBB975C00CCA019 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18F27BED1CBB975C00CCA019 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18F27BEE1CBB975C00CCA019 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		18F27BEF1CBB975C00CCA019 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		18F27BF61CBB987B00CCA019 /* PhotoTakingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoTakingHelper.swift; path = PhotoTaking/PhotoTakingHelper.swift; sourceTree = "<group>"; };
+		18F27BFD1CBC8E6600CCA019 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Model/Post.swift; sourceTree = "<group>"; };
 		9A8D8612FFB41E3FE1603A4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9DB09A76471715F9C728B83A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F49F49EAFEFE8163BB4AA462 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,19 +78,39 @@
 		186485891CB62E380008D5E8 /* The travel with parse */ = {
 			isa = PBXGroup;
 			children = (
+				18F27BF81CBC8D5100CCA019 /* Model */,
+				18F27BF51CBB980500CCA019 /* PhotoTaking */,
 				186485A41CB63D420008D5E8 /* Images.xcassets */,
 				1864858E1CB62E380008D5E8 /* Main.storyboard */,
 				186485961CB62E390008D5E8 /* LaunchScreen.storyboard */,
 				186485991CB62E390008D5E8 /* Info.plist */,
-				186485911CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld */,
 				186485A11CB634EA0008D5E8 /* The travel with parse-Bridging-Header.h */,
+				18F27BEC1CBB975C00CCA019 /* HomeViewController.swift */,
+				18F27BED1CBB975C00CCA019 /* LoginViewController.swift */,
+				18F27BEE1CBB975C00CCA019 /* ResetPasswordViewController.swift */,
+				18F27BEF1CBB975C00CCA019 /* SignUpViewController.swift */,
 				1864858A1CB62E380008D5E8 /* AppDelegate.swift */,
-				1864858C1CB62E380008D5E8 /* LoginViewController.swift */,
-				186485A81CB63E720008D5E8 /* HomeViewController.swift */,
-				186485AA1CB63E930008D5E8 /* SignUpViewController.swift */,
-				186485AC1CB63EB80008D5E8 /* ResetPasswordViewController.swift */,
+				18F27BD61CBB875D00CCA019 /* TimelineViewController.swift */,
+				18F27BD81CBB87D500CCA019 /* PhotoViewController.swift */,
+				18F27BDA1CBB880A00CCA019 /* FriendSearchViewController.swift */,
 			);
 			path = "The travel with parse";
+			sourceTree = "<group>";
+		};
+		18F27BF51CBB980500CCA019 /* PhotoTaking */ = {
+			isa = PBXGroup;
+			children = (
+				18F27BF61CBB987B00CCA019 /* PhotoTakingHelper.swift */,
+			);
+			name = PhotoTaking;
+			sourceTree = "<group>";
+		};
+		18F27BF81CBC8D5100CCA019 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F27BFD1CBC8E6600CCA019 /* Post.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		A3F982F6E4E5E777388BA147 /* Pods */ = {
@@ -225,12 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186485931CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld in Sources */,
-				1864858D1CB62E380008D5E8 /* LoginViewController.swift in Sources */,
+				18F27BF11CBB975C00CCA019 /* LoginViewController.swift in Sources */,
+				18F27BF01CBB975C00CCA019 /* HomeViewController.swift in Sources */,
+				18F27BF31CBB975C00CCA019 /* SignUpViewController.swift in Sources */,
+				18F27BDB1CBB880A00CCA019 /* FriendSearchViewController.swift in Sources */,
 				1864858B1CB62E380008D5E8 /* AppDelegate.swift in Sources */,
-				186485AD1CB63EB80008D5E8 /* ResetPasswordViewController.swift in Sources */,
-				186485A91CB63E720008D5E8 /* HomeViewController.swift in Sources */,
-				186485AB1CB63E930008D5E8 /* SignUpViewController.swift in Sources */,
+				18F27BD91CBB87D500CCA019 /* PhotoViewController.swift in Sources */,
+				18F27BF71CBB987B00CCA019 /* PhotoTakingHelper.swift in Sources */,
+				18F27BD71CBB875D00CCA019 /* TimelineViewController.swift in Sources */,
+				18F27BF21CBB975C00CCA019 /* ResetPasswordViewController.swift in Sources */,
+				18F27BFE1CBC8E6600CCA019 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,19 +420,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		186485911CB62E390008D5E8 /* The_travel_with_parse.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				186485921CB62E390008D5E8 /* The_travel_with_parse.xcdatamodel */,
-			);
-			currentVersion = 186485921CB62E390008D5E8 /* The_travel_with_parse.xcdatamodel */;
-			path = The_travel_with_parse.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 1864857F1CB62E380008D5E8 /* Project object */;
 }
